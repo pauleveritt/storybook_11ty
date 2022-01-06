@@ -5,12 +5,20 @@
   "private": true,
   "scripts": {
     "site": "eleventy",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/html": "^6.4.9",
+    "babel-loader": "^8.2.3",
     "html-webpack-plugin": "^5.5.0",
     "simple-nunjucks-loader": "^3.2.0",
     "webpack": "^5.65.0",
