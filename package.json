@@ -4,6 +4,7 @@
   "description": "I'm trying to get Storybook for 11ty/Nunjucks. It's...hard.",
   "private": true,
   "scripts": {
+    "site": "eleventy",
     "build": "webpack"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "lodash": "^4.17.21"
   }
 }
