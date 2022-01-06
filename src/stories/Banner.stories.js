@@ -1,4 +1,4 @@
-import Banner from  './Banner.njk';
+import Banner from '../_includes/Banner.njk';
 
 export default {
     title: 'Example/Banner'
