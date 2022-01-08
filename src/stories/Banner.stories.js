@@ -1,15 +1,23 @@
-import Banner from '../_includes/Banner.njk';
-const TemplateRender = require("@11ty/eleventy/src/TemplateRender");
+// import Banner from '../_includes/Banner.njk';
 
-// import TemplateConfig from "@11ty/eleventy/src/TemplateConfig";
+const TemplateRender = require("@11ty/eleventy/src/TemplateRender");
 
 export default {
     title: 'Example/Banner'
 };
 
 const Template = ({ label }) => {
-    const banner = Banner({label});
-    return banner;
+    /*
+
+    Here is where I will use the TemplateRender and TemplateConfig
+    as shown in the ava tests for 11ty.
+
+    For now just return a string, as the import above triggers
+    all the failures.
+
+     */
+    return $`<div>Hello</div>`;
+    // return Banner({label});
 };
 
 export const Primary = Template.bind({});
